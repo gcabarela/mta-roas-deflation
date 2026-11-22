@@ -1,0 +1,12 @@
+[project]
+name = "mta-roas-deflation"
+version = "0.1.0"
+description = "MTA ROAS Deflation: deflate platform-claimed ROAS to the converters your analytics actually saw"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+
+[tool.setuptools]
+packages = ["mta_roas_deflation"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
